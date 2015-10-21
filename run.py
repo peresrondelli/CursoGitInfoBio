@@ -22,6 +22,7 @@ def factorial(x,y): return x ** y
 choice = int(input("Select operation.\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n"))
 if choice not in [1,2,3,4]:
 	print('Invalid input dumbass!')
+	print('Invalid input you idiot!')
 	exit()
 
 a = int(input("first number: "))
